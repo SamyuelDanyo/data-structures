@@ -26,6 +26,14 @@ class SinglyLinkedList:
     def __init__(self, head=None):
         self.head = head
 
+    def __str__(self):
+        data = []
+        node = self.head
+        while node:
+            data.append(str(node.data))
+            node = node.next
+        return "[" + ", ".join(data) + "]"
+
     def traverse(self):
         """Traverse the list."""
         node = self.head
