@@ -9,7 +9,7 @@
 #         > heap, full_heapify, merge.
 #     - Inspection
 #         > size, is_empty, is_full, capacity, height.
-#     - Inernal:
+#     - Internal:
 #         > parent, l/rchild, heapify, heapify_down, increase_key, decrease_key
 """
 #################################################
